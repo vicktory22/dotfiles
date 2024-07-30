@@ -75,3 +75,9 @@ cmp.setup({
 })
 
 require("lspconfig").tsserver.setup {}
+
+vim.diagnostic.config({
+  -- virtual_text = false,
+  -- signs = true,
+  underline = true,
+})
