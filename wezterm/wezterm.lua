@@ -21,8 +21,7 @@ config.window_padding = {
 config.hide_tab_bar_if_only_one_tab = true
 
 config.font =
-  -- wezterm.font('JetBrainsMono Nerd Font', {weight='Light'})
-  wezterm.font('Berkeley Mono', {weight='Regular'})
+  wezterm.font('JetBrainsMono Nerd Font', {weight='Light'})
 
 config.window_background_gradient = {
   colors = { '#12100E', '#1B2845' },
