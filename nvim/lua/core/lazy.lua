@@ -37,5 +37,6 @@ require("lazy").setup({
     priority = 1000,
     opts = {},
   },
-  { "xiyaowong/transparent.nvim" }
+  { "xiyaowong/transparent.nvim" },
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
 }, opts)
